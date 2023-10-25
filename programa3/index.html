@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Simulação de Investimento</title>
+  <link rel="styleesheet" href="../programa3/style.css">
+</head>
+
+<body>
+
+
+
+  <h1> Calculando os juros compostos</h1>
+
+  <form id="formulario">
+    <label for="username">Nome: </label>
+    <input id="username" type="text" name="username">
+    <label for="mensalidade">Mensalidade: R$ </label>
+    <input id="mensalidade" type="text" name="mensalidade">
+    <label for="tempoContribuicao">Tempo de Contribuição (em anos): </label>
+    <input id="tempoContribuicao" type="text" name="tempoContribuicao">
+  </form>
+
+  <button onclick="simular()"> Simular</button>
+  <p id="valorTotalInvestimento"> </p>
+
+
+  <script src="../programa3/app.js"></script>
+
+</body>
+
+</html>
